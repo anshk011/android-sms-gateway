@@ -1,0 +1,36 @@
+# Android / Gradle
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# App build outputs
+app/build/
+
+# Keystore (never commit)
+*.jks
+*.keystore
+
+# Environment / secrets
+.env
+*.pem
+
+# Virtual env
+my/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Misc
+Thumbs.db
